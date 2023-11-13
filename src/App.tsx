@@ -8,9 +8,9 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
-      <h1>Vite + React</h1>
-      <div className="card">
+    <div className="mx-auto">
+      <h1 className="text-lg text-purple-500">Vite + React</h1>
+      <div>
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
