@@ -19,5 +19,5 @@ function Root() {
 }
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
-  <Root></Root>
+  <Root></Root>,
 );
