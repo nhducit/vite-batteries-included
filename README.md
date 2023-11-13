@@ -51,12 +51,12 @@ code --install-extension aaron-bond.better-comments usernamehw.errorlens icework
 
 ## Chrome extensions
 
-- [Locatorjs](https://chromewebstore.google.com/detail/locatorjs/npbfdllefekhdplbkdigpncggmojpefi?pli=1)
-- [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
+- [Locatorjs](https://chromewebstore.google.com/detail/locatorjs/npbfdllefekhdplbkdigpncggmojpefi?pli=1) Click on a component to go to its code. MUST HAVE 🤯
+- [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi) MUST HAVE 🤯
 
 ## Clone this template
 
-[Clone](https://github.com/nhducit/vite-react-batteries-included/generate) Click on a component to go to its code
+[Clone](https://github.com/nhducit/vite-react-batteries-included/generate)
 
 ## Deploy to Vercel and Clone Project
 
