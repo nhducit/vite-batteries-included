@@ -33,4 +33,5 @@ module.exports = {
     "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/no-confusing-void-expression": "off",
   },
+  ignores: ["node_modules", "dist", ".eslintrc.cjs", "vite.config.ts"],
 };
