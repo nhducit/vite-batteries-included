@@ -13,7 +13,9 @@
     "test-ci": "vitest",
     "coverage": "vitest run --coverage",
     "security-check": "trivy fs ./pnpm-lock.yaml",
-    "prepare": "husky"
+    "prepare": "husky",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
   },
   "dependencies": {
     "@hookform/resolvers": "3.9.0",
