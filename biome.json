@@ -1,5 +1,5 @@
 {
-  "$schema": "https://biomejs.dev/schemas/1.8.3/schema.json",
+  "$schema": "https://biomejs.dev/schemas/2.0.0/schema.json",
   "formatter": {
     "enabled": true,
     "formatWithErrors": false,
@@ -8,32 +8,44 @@
     "lineEnding": "lf",
     "lineWidth": 80,
     "attributePosition": "auto",
-    "ignore": [
-      "**/coverage",
-      "**/dist",
-      "**/build",
-      "**/public",
-      "**/.vite",
-      "**/.git",
-      "**/node_modules"
+    "includes": [
+      "**",
+      "!**/coverage",
+      "!**/dist",
+      "!**/build",
+      "!**/public",
+      "!**/.vite",
+      "!**/.git",
+      "!**/node_modules"
     ]
   },
-  "organizeImports": {
-    "enabled": true
-  },
+  "assist": { "actions": { "source": { "organizeImports": "on" } } },
   "linter": {
     "enabled": true,
     "rules": {
-      "recommended": true
+      "recommended": true,
+      "style": {
+        "noParameterAssign": "error",
+        "useAsConstAssertion": "error",
+        "useDefaultParameterLast": "error",
+        "useEnumInitializers": "error",
+        "useSelfClosingElements": "error",
+        "useSingleVarDeclarator": "error",
+        "noUnusedTemplateLiteral": "error",
+        "useNumberNamespace": "error",
+        "noInferrableTypes": "error",
+        "noUselessElse": "error"
+      }
     },
-    "ignore": [
-      "**/coverage",
-      "dist",
-      "**/build",
-      "**/public",
-      "**/.vite",
-      "**/.git",
-      "**/node_modules"
+    "includes": [
+      "**",
+      "!**/coverage",
+      "!**/dist",
+      "!**/build",
+      "!**/public",
+      "!**/.vite",
+      "!**/.git",
+      "!**/node_modules"
     ]
   },
   "javascript": {
