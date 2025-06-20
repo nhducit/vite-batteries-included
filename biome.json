@@ -22,6 +22,9 @@
   "assist": { "actions": { "source": { "organizeImports": "on" } } },
   "linter": {
     "enabled": true,
+    "domains": {
+      "react": "all"
+    },
     "rules": {
       "recommended": true,
       "style": {
